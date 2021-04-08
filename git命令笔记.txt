@@ -1,0 +1,24 @@
+mkdir demo
+cd demo
+git init
+vi a.txt
+git add a.txt
+git commit -m '---------'
+git status
+git log
+git reglog 
+git reset --hard HEAD^        版本回退
+git reset --hard 版本号
+不能直接切分支 要先创建文件再切换
+git checkout -b 分支名
+git branch
+git checkout 分支名
+git merge 分支名
+
+$ git remote add origin https://github.com/wucyAAA/testRepoditory.git
+$ git push -u origin master
+
+控制面板\用户帐户\凭据管理器
+清除git记住的账号密码
+
+git clone 仓库地址 clone的是所有分支

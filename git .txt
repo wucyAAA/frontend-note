@@ -1,0 +1,15 @@
+git init
+git add.
+git commit -m  '描述'
+git remote add origin http://--------.git
+git push origin master
+git branch 查看分支
+git checkout -b my(分支名)  
+git push origin my
+git checkout master
+git merge my
+git push origin master
+git pull origin my
+git clone -------------.git
+cd--
+git checkout -b my origin/my
